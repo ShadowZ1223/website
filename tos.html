@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - ProxieGen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0d13;
+            --bg-secondary: #111418;
+            --accent: #3b82f6;
+            --text-primary: #ffffff;
+            --text-secondary: #94a3b8;
+            --border: #1e293b;
+            --danger: #ef4444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .last-updated {
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 3rem 0 1rem;
+            color: var(--accent);
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            margin: 1rem 0 1rem 2rem;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .warning-box {
+            background: rgba(239, 68, 68, 0.1);
+            border: 2px solid var(--danger);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .warning-box h3 {
+            color: var(--danger);
+            margin-top: 0;
+        }
+
+        .highlight {
+            background: var(--bg-secondary);
+            border-left: 3px solid var(--accent);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .back-btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ProxieGen</a>
+            <a href="index.html" class="back-btn">← Back to Home</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <h1>Terms of Service</h1>
+        <p class="last-updated">Last Updated: February 11, 2026</p>
+
+        <p>Welcome to ProxieGen. By using our service, you agree to comply with and be bound by the following terms and conditions. Please review them carefully.</p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By accessing and using ProxieGen, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to these terms, please do not use our service.</p>
+
+        <h2>2. Service Description</h2>
+        <p>ProxieGen provides a web-based platform for generating Roblox alternative accounts. Our service includes:</p>
+        <ul>
+            <li>Automated account generation</li>
+            <li>Account management dashboard</li>
+            <li>Pre-verified account delivery</li>
+            <li>API access for premium users</li>
+        </ul>
+
+        <h2>3. User Accounts & Authentication</h2>
+        <p>Users must authenticate through Discord to access our services. By linking your Discord account, you agree to:</p>
+        <ul>
+            <li>Provide accurate and current information</li>
+            <li>Maintain the security of your account</li>
+            <li>Accept responsibility for all activities under your account</li>
+            <li>Notify us immediately of any unauthorized use</li>
+        </ul>
+
+        <h2 id="api">4. API Usage & Abuse Policy</h2>
+        
+        <div class="warning-box">
+            <h3>🚨 CRITICAL: API Abuse Prohibition</h3>
+            <p><strong>Any form of API abuse including but not limited to excessive requests, automation without authorization, reverse engineering, or attempts to bypass rate limits, is strictly prohibited.</strong></p>
+        </div>
+
+        <h3>4.1 Prohibited Activities</h3>
+        <p>Users found engaging in API abuse will face severe consequences. Prohibited activities include:</p>
+        <ul>
+            <li><strong>Excessive Requests:</strong> Making more requests than allocated by your plan</li>
+            <li><strong>Unauthorized Automation:</strong> Using bots, scripts, or automated tools without explicit permission</li>
+            <li><strong>Rate Limit Bypass:</strong> Attempting to circumvent cooldown timers or rate limits</li>
+            <li><strong>Reverse Engineering:</strong> Decompiling, disassembling, or attempting to derive source code</li>
+            <li><strong>VPN/Proxy Abuse:</strong> Using VPNs or proxies to bypass restrictions or create multiple accounts</li>
+            <li><strong>HWID Spoofing:</strong> Attempting to change or mask hardware identifiers</li>
+            <li><strong>Account Sharing:</strong> Sharing access credentials with unauthorized parties</li>
+            <li><strong>Reselling:</strong> Unauthorized resale or distribution of generated accounts</li>
+        </ul>
+
+        <h3>4.2 Consequences of API Abuse</h3>
+        <div class="highlight">
+            <p><strong>Users found engaging in API abuse will face the following punishments, which may include but are not limited to:</strong></p>
+            <ul>
+                <li>⛔ <strong>Immediate account suspension</strong> (24-hour minimum)</li>
+                <li>🚫 <strong>Permanent removal from Discord server</strong></li>
+                <li>💔 <strong>Permanent ban from website</strong> (without refunds)</li>
+                <li>📢 <strong>Public disclosure</strong> of violation in server announcements</li>
+                <li>🔒 <strong>Blacklisting of all associated accounts</strong> and hardware IDs</li>
+                <li>⚖️ <strong>Legal action</strong> may be pursued for severe violations</li>
+            </ul>
+        </div>
+
+        <h2>5. Anti-Cheat & Security Measures</h2>
+        <p>ProxieGen employs advanced anti-cheat and security systems to maintain service integrity:</p>
+        
+        <h3>5.1 Hardware ID (HWID) Tracking</h3>
+        <p>We collect and store hardware identifiers to prevent abuse. This includes:</p>
+        <ul>
+            <li>Browser fingerprinting</li>
+            <li>Device characteristics</li>
+            <li>Network information</li>
+            <li>Usage patterns</li>
+        </ul>
+
+        <h3>5.2 VPN/Proxy Detection</h3>
+        <p>Use of VPNs, proxies, or other anonymization services to bypass restrictions is prohibited and will result in immediate suspension.</p>
+
+        <h3>5.3 Multi-Account Detection</h3>
+        <p>Attempts to create multiple user accounts to bypass cooldowns or restrictions will result in permanent ban of all associated accounts.</p>
+
+        <h2>6. Service Limitations</h2>
+        
+        <h3>6.1 Free Tier</h3>
+        <ul>
+            <li>5 account generations per day</li>
+            <li>24-hour cooldown between generations</li>
+            <li>Basic support</li>
+            <li>Standard features only</li>
+        </ul>
+
+        <h3>6.2 Premium Tier</h3>
+        <ul>
+            <li>50 account generations per day</li>
+            <li>No cooldown restrictions</li>
+            <li>Priority support</li>
+            <li>Advanced features and API access</li>
+        </ul>
+
+        <h2>7. Refund Policy</h2>
+        <p><strong>Important:</strong> Refunds are not provided for:</p>
+        <ul>
+            <li>Accounts banned due to policy violations</li>
+            <li>Services used prior to cancellation</li>
+            <li>Dissatisfaction after service delivery</li>
+            <li>Self-inflicted account issues</li>
+        </ul>
+
+        <h2>8. Data Collection & Privacy</h2>
+        <p>We collect and store:</p>
+        <ul>
+            <li>Discord user information (username, ID, avatar)</li>
+            <li>Hardware identifiers (HWID)</li>
+            <li>Usage logs and generation history</li>
+            <li>IP addresses and connection data</li>
+            <li>Browser and device information</li>
+        </ul>
+        <p>This data is used for security, anti-abuse measures, and service improvement.</p>
+
+        <h2>9. Intellectual Property</h2>
+        <p>All content, features, and functionality of ProxieGen are owned by us and are protected by international copyright, trademark, and other intellectual property laws.</p>
+
+        <h2>10. Disclaimer of Warranties</h2>
+        <p>ProxieGen is provided "as is" without warranties of any kind. We do not guarantee:</p>
+        <ul>
+            <li>Uninterrupted or error-free service</li>
+            <li>Specific account longevity or quality</li>
+            <li>Compatibility with all Roblox features</li>
+            <li>Protection from Roblox's terms of service enforcement</li>
+        </ul>
+
+        <h2>11. Limitation of Liability</h2>
+        <p>ProxieGen shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use the service.</p>
+
+        <h2>12. Changes to Terms</h2>
+        <p>We reserve the right to modify these terms at any time. Continued use of the service after changes constitutes acceptance of the modified terms.</p>
+
+        <h2>13. Governing Law</h2>
+        <p>These terms shall be governed by and construed in accordance with applicable laws, without regard to conflict of law provisions.</p>
+
+        <h2>14. Contact Information</h2>
+        <p>For questions about these Terms of Service, please contact us:</p>
+        <ul>
+            <li>Discord Server: <a href="https://discord.gg/C3aznn8Hwt" style="color: var(--accent);">discord.gg/C3aznn8Hwt</a></li>
+            <li>Email: support@proxiegen.com</li>
+        </ul>
+
+        <div class="warning-box" style="margin-top: 3rem;">
+            <h3>⚠️ Important Notice</h3>
+            <p><strong>ProxieGen is not affiliated with, endorsed by, or sponsored by Roblox Corporation.</strong> Use of our service may violate Roblox's Terms of Service. Users assume all risks associated with using alternative accounts on the Roblox platform.</p>
+        </div>
+
+        <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border);">
+            <p style="text-align: center; color: var(--text-secondary);">
+                By using ProxieGen, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
+            </p>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="index.html" class="back-btn">Return to Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
